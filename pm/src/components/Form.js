@@ -24,7 +24,7 @@ export default function Form(props) {
     //     setText(newText);
     // }
     const handleTitleClick=()=>{
-        const prepositions = ["a", "and", "in", "on", "at", "to", "for", "with", "about", "against", "between", "into", "through", "during", "before", "after", "above", "below", "from", "up", "down", "over", "under", "again", "further", "then", "once", "here", "there", "when", "where", "why", "how", "all", "any", "both", "each", "few", "more", "most", "other", "some", "such", "no", "nor", "not", "only", "own", "same", "so", "than", "too", "very", "of"];
+        const prepositions = ["a", "and", "in", "on", "at", "to", "for", "with", "about", "against", "between", "into", "through", "during", "before", "after", "above", "below", "from", "up", "down", "over", "under", "again", "further", "then", "once", "here", "there", "when", "where", "why", "how", "all", "any", "both", "each", "few", "more", "other", "some", "such", "no", "nor", "not", "only", "own", "same", "so", "than", "too", "very", "of"];
         let words=text.split(' ');
         let newText=words.map((word,index) => {
             if (index===0 || !prepositions.includes(word.toLowerCase())){
