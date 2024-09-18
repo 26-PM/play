@@ -1,8 +1,6 @@
 # play
 https://26-pm.github.io/play
 
-Here's a beautiful README for your React app:
-
 ---
 
 # Text Transformer React App
@@ -26,12 +24,12 @@ To run this project locally, follow these steps:
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/your-username/text-transformer.git
+    git clone (https://github.com/26-PM/play.git)
     ```
 
 2. **Navigate to the project directory**:
     ```bash
-    cd text-transformer
+    cd play
     ```
 
 3. **Install dependencies**:
